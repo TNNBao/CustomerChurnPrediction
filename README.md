@@ -1,1 +1,1 @@
-Run script: streamlit run main.py
+- Run script: streamlit run main.py
