@@ -52,7 +52,7 @@ def show():
     ])
 
     MonthlyCharges = st.number_input("Monthly charges", value=70.0)
-    TotalCharges = st.number_input("Total charges", value=1500.0)
+    TotalCharges = st.number_input("Total charges", value=MonthlyCharges*tenure, disabled=True)
 
     if st.button("Predict"):
         try:
